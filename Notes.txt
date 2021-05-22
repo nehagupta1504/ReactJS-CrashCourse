@@ -1,0 +1,41 @@
+Tools we need for reactJS
+1). NodeJS 
+2). ReactJS - library
+3).VSCode-Editor
+4). Browser
+===========================================================================================================================================================
+===========================================================================================================================================================
+
+//function based component
+
+function App() {
+  return (
+    //expect to return exact one component
+    //<h1> is the component, & it is not html it is JSX
+    <div>
+      <h1>Neha</h1>
+      <p>Gupta</p>
+    </div>
+  );
+}
+
+export default App; //must be exported & if we have to change the name App then we have to make changes in index.html also
+ 
+===========================================================================================================================================================
+===========================================================================================================================================================
+
+
+//How to add css class
+
+function App() {
+  return (
+    //expect to return exact one component
+    //<h1> is the component, & it is not html it is JSX
+    <div className="App">
+      <h1>Neha</h1>
+      <p>Gupta</p>
+    </div>
+  );
+}
+
+export default App;
