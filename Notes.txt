@@ -72,3 +72,23 @@ export default function App() {
 1) src>index.js -- will contain the routing stuff
 
 2). Link == ~ href
+
+===========================================================================================================================================================
+===========================================================================================================================================================
+1). We can ignore return keyword while writing a function if we use () these braces but If we'r using curly braces return keyword is must
+import React from "react";
+
+const Base = () => {
+  return <div></div>;
+};
+export default Base;
+
+
+equals to
+
+import React from "react";
+
+const Base = () => (
+  <div></div>;
+);
+export default Base;
